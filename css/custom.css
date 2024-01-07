@@ -1,0 +1,144 @@
+.btn-primary {
+    color: #FFF;
+    background-color: #009688 !important;
+    border-color: #009688 !important;
+  }
+  
+  .btn-primary:hover {
+    color: #FFF;
+    background-color: #007065 !important;
+    border-color: #00635a !important;
+  }
+  
+  .btn-primary:focus, .btn-primary.focus {
+    -webkit-box-shadow: 0 0 0 0 rgba(38, 166, 154, 0.5);
+            box-shadow: 0 0 0 0 rgba(38, 166, 154, 0.5);
+  }
+  
+  .btn-primary.disabled, .btn-primary:disabled {
+    color: #FFF;
+    background-color: #009688;
+    border-color: #009688;
+  }
+  
+  .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+  .show > .btn-primary.dropdown-toggle {
+    color: #FFF;
+    background-color: #00635a;
+    border-color: #00564e;
+  }
+  
+  .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-primary.dropdown-toggle:focus {
+    -webkit-box-shadow: 0 0 0 0 rgba(38, 166, 154, 0.5);
+            box-shadow: 0 0 0 0 rgba(38, 166, 154, 0.5);
+  }
+
+  .btn-link {
+    font-weight: 400;
+    color: #009688;
+    text-decoration: none;
+  }
+  
+  .btn-link:hover {
+    color: #004a43;
+    text-decoration: underline;
+  }
+  
+  .btn-link:focus, .btn-link.focus {
+    text-decoration: underline;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  
+  .btn-link:disabled, .btn-link.disabled {
+    color: #6c757d;
+    pointer-events: none;
+  }
+  .dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 8px 20px;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+  }
+  
+  .dropdown-item:first-child {
+    border-top-left-radius: calc(0.25rem - 0);
+    border-top-right-radius: calc(0.25rem - 0);
+  }
+  
+  .dropdown-item:last-child {
+    border-bottom-right-radius: calc(0.25rem - 0);
+    border-bottom-left-radius: calc(0.25rem - 0);
+  }
+  
+  .dropdown-item:hover, .dropdown-item:focus {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #f8f9fa;
+  }
+  
+  .dropdown-item.active, .dropdown-item:active {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #009688;
+  }
+  
+  .dropdown-item.disabled, .dropdown-item:disabled {
+    color: #6c757d;
+    pointer-events: none;
+    background-color: transparent;
+  }
+  .dropdown-item-text {
+    display: block;
+    padding: 8px 20px;
+    color: #212529;
+  }
+  .modal {
+    overflow-y: auto !important; /* Ensure scrollbars appear for modals */
+  }
+
+  /* Change the border color when input is focused */
+input:focus {
+  border-color: #009688 !important; /* Change this to your desired color */
+  outline: none !important; /* Optionally remove the default focus outline */
+}
+
+/* Change the background color when input is focused */
+input:focus {
+  background-color: #f0f0f0 !important; /* Change this to your desired color */
+  outline: none !important; /* Optionally remove the default focus outline */
+}
+/* Override Bootstrap's blue focus style for input elements */
+/* Remove the box shadow */
+input.form-control:focus {
+  box-shadow: none !important;
+}
+
+/* Optionally, remove the default outline as well */
+input.form-control:focus {
+  outline: none !important;
+}
+
+.page-item.active .page-link {
+  z-index: 1;
+  color: #FFF !important;
+  background-color: #009688 !important;
+  border-color: #009688 !important;
+}
+
+.page-item.disabled .page-link {
+  color: #6c757d !important;
+  pointer-events: none !important;
+  cursor: auto;
+  background-color: #FFF !important;
+  border-color: #dee2e6 !important;
+}
+
+
